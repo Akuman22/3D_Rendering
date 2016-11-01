@@ -27,8 +27,12 @@ public class MainActivity extends AppCompatActivity {
     private static final String IMAGE_DIRECTORY_NAME = "Captured_Images";
     int numberOfCameras;
     private TextView cameras;
-    Random rand = new Random();
-    Handler handler = new Handler();
+    private Random mRandom = new Random();
+    private int mCounter;
+    private Handler mHandler;
+    private Runnable mRunnable;
+    private int mInterval = 4000;
+
 
     /**
      * Called when the activity is first created.
@@ -60,22 +64,25 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        // Initialize a new instance of Handler
+        mHandler = new Handler();
+
+        mRunnable = new Runnable() {
+            /*
+                public abstract void run ()
+                    Starts executing the active part of the class' code. This method is
+                    called when a thread is started that has been created with a class which
+                    implements Runnable.
+            */
+            @Override
+            public void run() {
+                // Do some task on delay
+                doTask();
+            }
+        };
+        mHandler.postDelayed(mRunnable, (mInterval));
 
 
-        new CountDownTimer(10000,1000){
-            @Override
-            public void onFinish() {
-// count finished
-                TimeLeft.setText("Picture Taken");
-                camera.takePicture(null, null, null, jpegCallBack);
-            }
-            @Override
-            public void onTick(long millisUntilFinished) {
-// every time 1 second passes
-                TimeLeft.setText("Seconds Left: "+millisUntilFinished/1000);
-            }
-        }.start();
-        camera.startPreview();
     }
 
     Camera.PictureCallback jpegCallBack = new Camera.PictureCallback() {
@@ -100,4 +107,26 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
+
+    protected void doTask() {
+        // Increase the counter by one
+        new CountDownTimer(10000, 1000) {
+            @Override
+            public void onFinish() {
+// count finished
+                TimeLeft.setText("Picture Taken");
+                camera.takePicture(null, null, null, jpegCallBack);
+            }
+
+            @Override
+            public void onTick(long millisUntilFinished) {
+// every time 1 second passes
+                TimeLeft.setText("Seconds Left: " + millisUntilFinished / 1000);
+            }
+        }.start();
+        camera.startPreview();
+        // Schedule the task to do again after an interval
+        mHandler.postDelayed(mRunnable, mInterval);
+
+    }
 }
