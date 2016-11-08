@@ -1,0 +1,7 @@
+#Sat Oct 22 10:57:10 EDT 2016
+base.0=C\:\\Users\\kasim\\Desktop\\Camera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_eb6525ddbc4dbfe57f1a3a018c732e4c7d878484
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\kasim\\Desktop\\Camera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_31c0daa2501a37bb91351d513966f2f1ad284a5d\\classes.dex
+base.1=C\:\\Users\\kasim\\Desktop\\Camera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_31c0daa2501a37bb91351d513966f2f1ad284a5d
+file.0=C\:\\Users\\kasim\\Desktop\\Camera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_eb6525ddbc4dbfe57f1a3a018c732e4c7d878484\\classes.dex

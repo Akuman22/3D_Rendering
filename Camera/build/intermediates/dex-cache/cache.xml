@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\kasim\Desktop\Camera\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2bd49a6a1d57cd98bf4c6816afbae8c1feb756ea">
+        <dex dex="C:\Users\kasim\Desktop\Camera\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_31c0daa2501a37bb91351d513966f2f1ad284a5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kasim\Desktop\Camera\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="143b29de4df53377c50d6fb6bf77d3765686d27b">
+        <dex dex="C:\Users\kasim\Desktop\Camera\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eb6525ddbc4dbfe57f1a3a018c732e4c7d878484\classes.dex" />
+    </item>
+
+</items>
