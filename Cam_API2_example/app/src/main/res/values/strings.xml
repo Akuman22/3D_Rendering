@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cam_API2_example</string>
+    <string name="take_picture">Take picture</string>
+</resources>
