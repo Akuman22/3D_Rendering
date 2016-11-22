@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_0536c1a02775f14e70157652288d4508c94cf579/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_27f44b4572b05fa599c30f82bcd65d097f7ab6bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_1ad8ceff6bc666fb86f4e3eaa6eca05ed35edece/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_7c278c6c592d71dbbf156bf69857e0092b14cf04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7d92a222e4f561e5dbd1eeae5c222ec7ec086088">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2abf211d8765aab79f95341616c6fa9a8b00b6f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_00b9f017ea94df8fd4f9379d0a1d0a146f869c8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_1a760b7f499bd45caf13645212211ff102c02d2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="816e02431766a182e1dc7d8d4b92a0a3bd417438">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b8df3261133ea3a30bed43474ae6bc15b3c0cb7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_549c16860f2377ca4150516a0419cce440c72311/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_bd99e7358923c5d39a1d6e72b493cc1c01c3c490/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_0e7a81b1d1e31e29f123840f6565980831424863/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_ac088dacf12e428aea5e719d5b8bc4a7531791f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_e1f850aff4e15917522dfd995793ba48b89948c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_845bda038c968097814cc35bfda65c54af1edd05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8bf817c9b12ca73910cd120882cbcab822dba7d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_303959367c033259c9b8cf8e8311da3219d954aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/apple/Desktop/EC601/ImageSlider/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_8f39d88aac3678dc6f1b20b5b1415b7abb597af9/classes.dex" />
+    </item>
+
+</items>
