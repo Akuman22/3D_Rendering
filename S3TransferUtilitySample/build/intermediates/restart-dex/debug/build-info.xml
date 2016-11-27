@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="23"
+    density="xxxhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="1378420252769855"
+    token="4797987478161952765"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="513" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="250" />
+    <task
+        name="verifier"
+        duration="88" />
+
+    <artifact
+        location="C:\Users\kasim\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\S3TransferUtilitySample\build\outputs\apk\S3TransferUtilitySample-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1378420252769855"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\kasim\Desktop\aws-sdk-android-samples-master\aws-sdk-android-samples-master\S3TransferUtilitySample\build\outputs\apk\S3TransferUtilitySample-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
