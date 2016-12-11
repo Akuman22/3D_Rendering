@@ -133,7 +133,7 @@ public class mainActivity extends Activity implements SensorEventListener {
 
         senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
         senSensorManager.registerListener(this, senGyroscope, SensorManager.SENSOR_DELAY_NORMAL);
-        /*
+
         File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
                 Environment.DIRECTORY_PICTURES), "MyCameraApp"  );
         File[] files = mediaStorageDir.listFiles();
@@ -151,7 +151,7 @@ public class mainActivity extends Activity implements SensorEventListener {
 
             }
         }
-        */
+
         Intent backactivityThatCalled1 = getIntent();
         String previousActivity1 = backactivityThatCalled1.getExtras().getString("calling3dActivity");
 

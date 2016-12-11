@@ -2,7 +2,6 @@ package com.example.suyux.vrt3_verision01;
 
 import android.content.Context;
 import android.graphics.BitmapFactory;
-import android.os.Environment;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,8 +16,8 @@ import java.io.File;
 
 public class customSwip extends PagerAdapter {
 
-    private static File ms = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "MyCameraApp");
-    private File[] files = ms.listFiles();
+    //private static File ms = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "MyCameraApp");
+    private File[] files = mainActivity.msa.listFiles();
     private Context ctx;
     private LayoutInflater layoutInflater;
 
@@ -29,7 +28,7 @@ public class customSwip extends PagerAdapter {
 
     @Override
     public int getCount() {
-        return (int) ms.length();
+        return (int) mainActivity.msa.length();
     }
 
     @Override

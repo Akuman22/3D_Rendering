@@ -23,10 +23,8 @@ public class Gallery_Select extends AppCompatActivity {
 
         listView = (ListView) findViewById(R.id.gallery_list_view);
 
-        /*
         projectList.add(mainActivity.msa.getAbsolutePath());
-         */
-        ArrayAdapter<String> madapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_2, android.R.id.text1, listItemValue);
+        ArrayAdapter<String> madapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, projectList);
         listView.setAdapter(madapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
