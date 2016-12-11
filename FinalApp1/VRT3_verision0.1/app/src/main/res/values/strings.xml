@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VRT3_verision0.1</string>
+    <string name="make_a_new_3d_model">Make a new 3d model</string>
+    <string name="view_pictures">view pictures</string>
+    <string name="view_3d_models">view 3d models</string>
+    <string name="vrt3">VRT3</string>
+    <string name="back">Back</string>
+    <string name="back_from_gallery_select">Back</string>
+    <string name="Picture_Folder">Picture Folder</string>
+    <string-array name="Gallery_project">
+        <item>Project 0</item>
+    </string-array>
+</resources>
