@@ -25,11 +25,10 @@ public class Main_menu_Activity extends AppCompatActivity {
     }
 
     public void onViewPicture(View view) {
-        Intent getNameScreenIntent = new Intent(this, Gallery_Screen.class);
+        Intent getNameScreenIntent = new Intent(this, Gallery_Select.class);
 
         final int result = 1;
         getNameScreenIntent.putExtra("callingActivity","Main_menu_Activity");
-
         startActivityForResult(getNameScreenIntent,result);
     }
 

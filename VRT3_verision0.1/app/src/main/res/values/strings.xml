@@ -5,4 +5,9 @@
     <string name="view_3d_models">view 3d models</string>
     <string name="vrt3">VRT3</string>
     <string name="back">Back</string>
+    <string name="back_from_gallery_select">Back</string>
+    <string name="Picture_Folder">Picture Folder</string>
+    <string-array name="Gallery_project">
+        <item>Project 0</item>
+    </string-array>
 </resources>

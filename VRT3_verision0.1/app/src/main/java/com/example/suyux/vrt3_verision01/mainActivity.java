@@ -16,13 +16,16 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.SimpleAdapter;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 
 import static android.content.ContentValues.TAG;
 
@@ -48,8 +51,8 @@ class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
         try {
             mCamera.setPreviewDisplay(holder);
             Camera.Parameters params = mCamera.getParameters();
-            params.setPreviewSize(1280,720);
-            params.setPictureSize(1280,720);
+            params.setPreviewSize(1280, 720);
+            params.setPictureSize(1280, 720);
             mCamera.setParameters(params);
             mCamera.startPreview();
         } catch (Exception e) {
@@ -101,6 +104,9 @@ public class mainActivity extends Activity implements SensorEventListener {
     private float xacc;
     private float yacc;
     private int greset;
+    public static File msa;
+    private ArrayList<HashMap<String, Object>> transferRecordMaps;
+    private SimpleAdapter simpleAdapter;
     public static Camera getCameraInstance() {
         Camera c = null;
         try {
@@ -110,6 +116,7 @@ public class mainActivity extends Activity implements SensorEventListener {
         }
         return c;
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -124,9 +131,27 @@ public class mainActivity extends Activity implements SensorEventListener {
         senAccelerometer = senSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         senGyroscope = senSensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
 
-        senSensorManager.registerListener(this,senAccelerometer,SensorManager.SENSOR_DELAY_NORMAL);
-        senSensorManager.registerListener(this,senGyroscope,SensorManager.SENSOR_DELAY_NORMAL);
+        senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+        senSensorManager.registerListener(this, senGyroscope, SensorManager.SENSOR_DELAY_NORMAL);
+        /*
+        File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
+                Environment.DIRECTORY_PICTURES), "MyCameraApp"  );
+        File[] files = mediaStorageDir.listFiles();
+        try {
+            msa = new File(String.valueOf(files[1]));
+        }
+        catch (NullPointerException e)
+        {
+            msa = new File(Environment.getExternalStoragePublicDirectory(
+                    Environment.DIRECTORY_PICTURES), "MyCameraApp/" + String.valueOf(0));
+        }
+        if (! msa.exists()) {
+            if (!msa.mkdirs()) {
+                Log.d("MyCameraApp", "failed to create directory111");
 
+            }
+        }
+        */
         Intent backactivityThatCalled1 = getIntent();
         String previousActivity1 = backactivityThatCalled1.getExtras().getString("calling3dActivity");
 
@@ -134,19 +159,19 @@ public class mainActivity extends Activity implements SensorEventListener {
     }
 
 
-
     public static final int MEDIA_TYPE_IMAGE = 1;
     public static final int MEDIA_TYPE_VIDEO = 2;
 
-    private static Uri getOutputMediaFileUri(int type){
+    private static Uri getOutputMediaFileUri(int type) {
         return Uri.fromFile(getOutputMediaFile(type));
     }
-    private static File getOutputMediaFile(int type){
+
+    private static File getOutputMediaFile(int type) {
 
         File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
-                Environment.DIRECTORY_DCIM), "MyCameraApp"  );
-        if (! mediaStorageDir.exists()){
-            if (! mediaStorageDir.mkdirs()){
+                Environment.DIRECTORY_PICTURES), "MyCameraApp");
+        if (!mediaStorageDir.exists()) {
+            if (!mediaStorageDir.mkdirs()) {
                 Log.d("MyCameraApp", "failed to create directory");
                 return null;
             }
@@ -154,12 +179,12 @@ public class mainActivity extends Activity implements SensorEventListener {
 
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         File mediaFile;
-        if (type == MEDIA_TYPE_IMAGE){
+        if (type == MEDIA_TYPE_IMAGE) {
             mediaFile = new File(mediaStorageDir.getPath() + File.separator +
-                    "img_"+ timeStamp + ".jpg");
-        } else if(type == MEDIA_TYPE_VIDEO) {
+                    "img_" + timeStamp + ".jpg");
+        } else if (type == MEDIA_TYPE_VIDEO) {
             mediaFile = new File(mediaStorageDir.getPath() + File.separator +
-                    "VID_"+ timeStamp + ".mp4");
+                    "vid_" + timeStamp + ".mp4");
         } else {
             return null;
         }
@@ -174,8 +199,8 @@ public class mainActivity extends Activity implements SensorEventListener {
             mCamera.startPreview();
 
             File pictureFile = getOutputMediaFile(MEDIA_TYPE_IMAGE);
-            if (pictureFile == null){
-                Log.d(TAG, "Error creating media file, check storage permissions: " );
+            if (pictureFile == null) {
+                Log.d(TAG, "Error creating media file, check storage permissions: ");
                 return;
             }
 
@@ -192,7 +217,6 @@ public class mainActivity extends Activity implements SensorEventListener {
     };
 
 
-
     protected void onPause() {
         super.onPause();
         senSensorManager.unregisterListener(this);
@@ -201,8 +225,8 @@ public class mainActivity extends Activity implements SensorEventListener {
 
     protected void onResume() {
         super.onResume();
-        senSensorManager.registerListener(this,senAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
-        senSensorManager.registerListener(this,senGyroscope,SensorManager.SENSOR_DELAY_NORMAL);
+        senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+        senSensorManager.registerListener(this, senGyroscope, SensorManager.SENSOR_DELAY_NORMAL);
     }
 
 
@@ -211,60 +235,52 @@ public class mainActivity extends Activity implements SensorEventListener {
 
 
         if (mySensor.getType() == Sensor.TYPE_GYROSCOPE) {
-            greset ++;
+            greset++;
             zg += sensorEvent.values[1];
-            xg +=sensorEvent.values[0];
-            yg +=sensorEvent.values[2];
-            if(zg>30)
-            {
-                zg=0;
+            xg += sensorEvent.values[0];
+            yg += sensorEvent.values[2];
+            if (zg > 30) {
+                zg = 0;
             }
-            if(xg>30)
-            {
-                xg=0;
+            if (xg > 30) {
+                xg = 0;
             }
-            if(yg>30)
-            {
-                yg=0;
+            if (yg > 30) {
+                yg = 0;
             }
-            xang = xg*12;
-            yang = yg*12;
-            zang = zg*12;
-            if(zang>=l) {
+            xang = xg * 12;
+            yang = yg * 12;
+            zang = zg * 12;
+            if (zang >= l) {
                 Camera.Parameters params = mCamera.getParameters();
                 params.setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
                 params.setJpegQuality(100);
                 params.setRotation(90);
                 mCamera.setParameters(params);
-                mCamera.takePicture(null,null,mPicture);
+                mCamera.takePicture(null, null, mPicture);
                 l += 10;
-                i++;}
+                i++;
+            }
 
 
-
-
-            if (greset >10)
-            {
-                xg +=0.1;
+            if (greset > 10) {
+                xg += 0.1;
 
                 greset = 0;
             }
 
         }
 
-        if(mySensor.getType()==Sensor.TYPE_ACCELEROMETER)
-        {
+        if (mySensor.getType() == Sensor.TYPE_ACCELEROMETER) {
             xa = sensorEvent.values[0];
             za = sensorEvent.values[1];
             ya = sensorEvent.values[2];
 
 
-
-            zacc = (float)(za - (((90 -  xang)/ 90) * 9.8));
+            zacc = (float) (za - (((90 - xang) / 90) * 9.8));
 
 
         }
-
 
 
         if (l > 360) {
@@ -282,3 +298,4 @@ public class mainActivity extends Activity implements SensorEventListener {
         onBackPressed();
     }
 }
+
