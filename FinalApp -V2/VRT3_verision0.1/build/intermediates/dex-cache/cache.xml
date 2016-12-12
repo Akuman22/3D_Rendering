@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_c57f3b3ca85a8bed2701d5e156988c9693c397bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_a45374898888733de2e766fdb88c6721054e8a88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="520695971568278523369e3f47662065b6a7ec81">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8c2a0ebe7942c574d1dea6f6e329c19979d4caed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="32b48ce8b3a1dd246d67f689589a0bf79a81130e">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8f7649dadb441fdfd15ad721a11c262ede42bbf0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_a8577b8426c37000d6e7e73f711f431b52a5fbfd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_b5d539d34db89c55b3e410ed73f5ff4912d473bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_61b1fa59f1df9bd032dd383125271596efd65690\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_c4d6be5686b666d62fbf720b0a81fb30039d8287\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_5f0773e1686cceb660e5189b530cb8f2ff46ae99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4921c5b0c528d6c3fc43090e8065930b92191a00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_d8946a3b4e36f2380490e37b4777bb8642a89dff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_86701ff9bdfa7dfe7344802ab135861205a84eb8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_b645e9eb9458f33ea53b1560d6eb9f731b504dd4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_c5f5fd6d2a88e4ca333c2853df6bf67d4346a2e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_a4cd9bf359a8b3576bde58dc2c25e85218751afb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_b32fdae1aa455f71e04fd258d32c4a2fb41ecbfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mehta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\Android Sources\3D_Rendering-syx\VRT3_verision0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_d6a4ece5a8371ea49d1234e6006deb76243e816e\classes.dex" />
+    </item>
+
+</items>
