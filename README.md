@@ -2,6 +2,7 @@
 EC601-A2 - Project
 
 How to use our project:
+Video link - https://www.youtube.com/watch?v=elme-wy97Mg
 
 1. Running on Android Emulator:
 
